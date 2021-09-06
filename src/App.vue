@@ -1,5 +1,7 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <luck />
+  </div>
 </template>
 
 <script>
@@ -9,7 +11,8 @@ export default {
     return {
       msg: "Welcome to Your Vue.js App"
     };
-  }
+  },
+  created() {}
 };
 </script>
 
